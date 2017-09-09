@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "OECD 2017"
+  },
+  "text": {
+    "more": "The network provides an overview that can be used for further research. It also serves to visually highlight potential research gaps.",
+    "intro": "This network visualizes the landscape of research institutions and organisations that contribute to the understanding of fragility and related concepts. It is organized around the OECD\u0027s five fragility dimensions established in the States of Fragility Report 2016 and connects the topics with actors that produce relevant material",
+    "title": "Mapping the Research Landscape on Fragility"
+  },
+  "legend": {
+    "edgeLabel": "The relation between the nodes illustrate which topic is researched by which institution/actor",
+    "colorLabel": "The colors each represent a fragility dimension of the OECD\u0027s states of fragility framework: blue \u003d economic dimension; yellow: security dimension; red: political dimension; green: environmental dimension and purple: societal dimension. Nodes displayed in orange represent cross cutting topics outside of the framework.",
+    "nodeLabel": "The nodes display both actors (i.e. institutions) and research topics"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#ddd",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "regular",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 0,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "regular",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 20
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
